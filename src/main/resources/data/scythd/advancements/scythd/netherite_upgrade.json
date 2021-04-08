@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "scythd:netherite_scythe"
+    },
+    "title": {
+      "translate": "advancement.scythd.netherite_upgrade.title"
+    },
+    "description": {
+      "translate": "advancement.scythd.netherite_upgrade.desc"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "scythd:scythd/diamond_upgrade",
+  "criteria": {
+    "has_netherite_scythe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "scythd:netherite_scythe"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "scythd:aeternium_scythe",
+    "scythd:thallasium_scythe",
+    "scythd:terminite_scythe"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "scythd:diamond_scythe"
+    },
+    "title": {
+      "translate": "advancement.scythd.diamond_upgrade.title"
+    },
+    "description": {
+      "translate": "advancement.scythd.diamond_upgrade.desc"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "scythd:scythd/iron_upgrade",
+  "criteria": {
+    "has_diamond_scythe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "scythd:diamond_scythe"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "kkk",
+        "  /",
+        "  /"
+    ],
+    "key": {
+        "k": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "scythd:lapis_lazuli_scythe",
+        "count": 1
+    }
+}

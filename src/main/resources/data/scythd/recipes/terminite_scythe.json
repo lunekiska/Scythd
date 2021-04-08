@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ttt",
+        "  /",
+        "  /"
+    ],
+    "key": {
+        "t": {
+            "item": "betterendforge:terminite_ingot"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "scythd:terminite_scythe",
+        "count": 1
+    }
+}

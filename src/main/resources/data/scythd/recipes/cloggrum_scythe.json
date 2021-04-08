@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ccc",
+        "  /",
+        "  /"
+    ],
+    "key": {
+        "c": {
+            "tag": "forge:ingots/cloggrum"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "scythd:cloggrum_scythe",
+        "count": 1
+    }
+}

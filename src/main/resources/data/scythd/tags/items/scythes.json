@@ -1,0 +1,54 @@
+{
+  "replace": false,
+  "values": [
+    "scythd:wooden_scythe",
+    "scythd:stone_scythe",
+    "scythd:iron_scythe",
+    "scythd:golden_scythe",
+    "scythd:diamond_scythe",
+    "scythd:netherite_scythe",
+    "scythd:amethyst_scythe",
+    "scythd:emerald_scythe",
+    "scythd:lapis_lazuli_scythe",
+    "scythd:bone_scythe",
+
+    "scythd:neptunium_scythe",
+
+    "scythd:aeternium_scythe",
+    "scythd:thallasium_scythe",
+    "scythd:terminite_scythe",
+
+    "scythd:moonstone_scythe",
+
+    "scythd:bronze_scythe",
+    "scythd:osmium_scythe",
+    "scythd:refined_glowstone_scythe",
+    "scythd:refined_obsidian_scythe",
+    "scythd:steel_scythe",
+    "scythd:tin_scythe",
+    "scythd:copper_scythe",
+
+    "scythd:pendorite_scythe",
+
+    "scythd:abyss_diamond_scythe",
+    "scythd:ultra_abyss_scythe",
+    "scythd:fusion_scythe",
+    "scythd:unknown_scythe",
+    "scythd:phantom_scythe",
+    "scythd:garnite_scythe",
+    "scythd:unorithe_scythe",
+    "scythd:knight_scythe",
+
+    "scythd:cloggrum_scythe",
+    "scythd:froststeel_scythe",
+    "scythd:utherium_scythe",
+    "scythd:forgotten_scythe",
+
+    "scythd:manasteel_scythe",
+    "scythd:elementium_scythe",
+    "scythd:terrasteel_scythe",
+
+    "scythd:brass_scythe",
+    "scythd:shadow_steel_scythe"
+  ]
+}

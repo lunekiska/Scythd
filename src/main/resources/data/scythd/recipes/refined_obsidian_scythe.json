@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ooo",
+        "  /",
+        "  /"
+    ],
+    "key": {
+        "o": {
+            "tag": "forge:ingots/refined_obsidian"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "scythd:refined_obsidian_scythe",
+        "count": 1
+    }
+}

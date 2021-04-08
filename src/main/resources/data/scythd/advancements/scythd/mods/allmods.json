@@ -1,0 +1,122 @@
+{
+  "display": {
+    "icon": {
+      "item": "scythd:golden_scythe"
+    },
+    "title": {
+      "translate": "advancement.scythd.mods.allmods.title"
+    },
+    "description": {
+      "translate": "advancement.scythd.mods.allmods.desc"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "scythd:scythd/root",
+  "criteria": {
+    "has_recipe_aquaculture": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "tags": [
+          {
+            "tag": "scythd:recipes/aquaculture_scythes"
+          }
+        ]
+      }
+    },
+    "has_recipe_betterend": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "tags": [
+          {
+            "tag": "scythd:recipes/betterend_scythes"
+          }
+        ]
+      }
+    },
+    "has_recipe_druidcraft": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "tags": [
+          {
+            "tag": "scythd:recipes/druidcraft_scythes"
+          }
+        ]
+      }
+    },
+    "has_recipe_mekanism": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "tags": [
+          {
+            "tag": "scythd:recipes/mekanism_scythes"
+          }
+        ]
+      }
+    },
+    "has_recipe_byg": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "tags": [
+          {
+            "tag": "scythd:recipes/byg_scythes"
+          }
+        ]
+      }
+    },
+    "has_recipe_theabyss": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "tags": [
+          {
+            "tag": "scythd:recipes/theabyss_scythes"
+          }
+        ]
+      }
+    },
+    "has_recipe_undergarden": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "tags": [
+          {
+            "tag": "scythd:recipes/undergarden_scythes"
+          }
+        ]
+      }
+    },
+    "has_recipe_botania": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "tags": [
+          {
+            "tag": "scythd:recipes/botania_scythes"
+          }
+        ]
+      }
+    },
+    "has_recipe_create": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "tags": [
+          {
+            "tag": "scythd:recipes/create_scythes"
+          }
+        ]
+      }
+    }
+  },
+  "requirements" : [
+    [
+      "has_recipe_aquaculture",
+      "has_recipe_betterend",
+      "has_recipe_druidcraft",
+      "has_recipe_mekanism",
+      "has_recipe_byg",
+      "has_recipe_theabyss",
+      "has_recipe_undergarden",
+      "has_recipe_botania",
+      "has_recipe_create"
+    ]
+  ]
+}

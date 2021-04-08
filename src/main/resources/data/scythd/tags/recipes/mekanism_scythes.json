@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "scythd:bronze_scythe",
+    "scythd:osmium_scythe",
+    "scythd:refined_glowstone_scythe",
+    "scythd:refined_obsidian_scythe",
+    "scythd:steel_scythe",
+    "scythd:tin_scythe",
+    "scythd:copper_scythe"
+  ]
+}

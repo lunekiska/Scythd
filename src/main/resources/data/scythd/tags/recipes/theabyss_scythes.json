@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "scythd:abyss_diamond_scythe",
+    "scythd:ultra_abyss_scythe",
+    "scythd:fusion_scythe",
+    "scythd:unknown_scythe",
+    "scythd:phantom_scythe",
+    "scythd:garnite_scythe",
+    "scythd:unorithe_scythe",
+    "scythd:knight_scythe"
+  ]
+}

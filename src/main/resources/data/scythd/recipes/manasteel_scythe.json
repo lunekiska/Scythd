@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "mmm",
+        "  /",
+        "  /"
+    ],
+    "key": {
+        "m": {
+            "tag": "forge:ingots/manasteel"
+        },
+        "/": {
+            "item": "botania:livingwood_twig"
+        }
+    },
+    "result": {
+        "item": "scythd:manasteel_scythe",
+        "count": 1
+    }
+}

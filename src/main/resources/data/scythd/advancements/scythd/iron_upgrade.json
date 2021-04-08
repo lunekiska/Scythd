@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "scythd:iron_scythe"
+    },
+    "title": {
+      "translate": "advancement.scythd.iron_upgrade.title"
+    },
+    "description": {
+      "translate": "advancement.scythd.iron_upgrade.desc"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "scythd:scythd/first_scythe",
+  "criteria": {
+    "has_iron_scythe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "scythd:iron_scythe"
+          }
+        ]
+      }
+    }
+  }
+}

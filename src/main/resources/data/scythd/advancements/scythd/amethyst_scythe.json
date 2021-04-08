@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "scythd:amethyst_scythe"
+    },
+    "title": {
+      "translate": "advancement.scythd.amethyst_scythe.title"
+    },
+    "description": {
+      "translate": "advancement.scythd.amethyst_scythe.desc"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "scythd:scythd/root",
+  "criteria": {
+    "has_scythe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "scythd:amethyst_scythe"
+          }
+        ]
+      }
+    }
+  }
+}

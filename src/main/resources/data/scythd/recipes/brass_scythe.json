@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "  /",
+    "  /"
+  ],
+  "key": {
+    "b": {
+      "tag": "forge:ingots/brass"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "scythd:brass_scythe",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "nnn",
+        "  /",
+        "  /"
+    ],
+    "key": {
+        "n": {
+            "tag": "forge:ingots/neptunium"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "scythd:neptunium_scythe",
+        "count": 1
+    }
+}

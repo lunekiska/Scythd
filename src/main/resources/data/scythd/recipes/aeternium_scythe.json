@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aaa",
+        "  /",
+        "  /"
+    ],
+    "key": {
+        "a": {
+            "item": "betterendforge:aeternium_ingot"
+        },
+        "/": {
+            "item": "betterendforge:leather_wrapped_stick"
+        }
+    },
+    "result": {
+        "item": "scythd:aeternium_scythe",
+        "count": 1
+    }
+}

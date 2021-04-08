@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "scythd:netherite_scythe"
+  },
+  "addition": {
+    "item": "byg:pendorite_scraps"
+  },
+  "result": {
+    "item": "scythd:pendorite_scythe"
+  }
+}

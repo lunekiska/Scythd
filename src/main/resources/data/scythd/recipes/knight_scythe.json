@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "kkk",
+        " i/",
+        " i/"
+    ],
+    "key": {
+        "k": {
+            "item": "theabyss:knight_ingot"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+		"i": {
+            "item": "theabyss:icora_stone"
+        }
+    },
+    "result": {
+        "item": "scythd:knight_scythe",
+        "count": 1
+    }
+}

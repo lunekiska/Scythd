@@ -1,0 +1,168 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[36,)" #mandatory
+
+license="MIT" #mandatory
+
+issueTrackerURL="https://github.com/lunekiska/Scythd/issues" #optional
+
+[[mods]] #mandatory
+
+modId="scythd" #mandatory
+
+version="${version}" #mandatory
+
+displayName="Scythd" #mandatory
+
+credits="Thanks to LordDeatHunter for Fabric mod" #optional
+
+authors="Lunekiska(Forge port and additions), LordDeatHunter(original mod)" #optional
+
+description='''
+Harvest crops in an area!
+Legendary scythes are now avaible also for Forge modloader!
+'''
+
+[[dependencies.scythd]] #optional
+
+    modId="forge" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="[36.1.4,)" #mandatory
+
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.scythd]]
+
+    modId="minecraft"
+
+    mandatory=true
+
+    versionRange="[1.16.5]"
+
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.scythd]]
+
+     modId="aquaculture"
+
+     mandatory=false
+
+     versionRange="[1.16.5-2.1.16,)"
+
+     ordering="AFTER"
+
+     side="BOTH"
+
+[[dependencies.scythd]]
+
+     modId="betterendforge"
+
+     mandatory=false
+
+     versionRange="[1.16.4-1.5.1,)"
+
+     ordering="AFTER"
+
+     side="BOTH"
+
+[[dependencies.scythd]]
+
+     modId="druidcraft"
+
+     mandatory=false
+
+     versionRange="[1.16.5-0.4.52,)"
+
+     ordering="AFTER"
+
+     side="BOTH"
+
+[[dependencies.scythd]]
+
+     modId="mekanism"
+
+     mandatory=false
+
+     versionRange="[1.16.5-10.0.21.448,)"
+
+     ordering="AFTER"
+
+     side="BOTH"
+
+[[dependencies.scythd]]
+
+     modId="mekanismtools"
+
+     mandatory=false
+
+     versionRange="[1.16.5-10.0.21.448,)"
+
+     ordering="AFTER"
+
+     side="BOTH"
+
+[[dependencies.scythd]]
+
+     modId="byg"
+
+     mandatory=false
+
+     versionRange="[1.1.14,)"
+
+     ordering="AFTER"
+
+     side="BOTH"
+
+[[dependencies.scythd]]
+
+     modId="theabyss"
+
+     mandatory=false
+
+     versionRange="[1.9.7,)"
+
+     ordering="AFTER"
+
+     side="BOTH"
+
+[[dependencies.scythd]]
+
+     modId="undergarden"
+
+     mandatory=false
+
+     versionRange="[1.16.5-0.4.5,)"
+
+     ordering="AFTER"
+
+     side="BOTH"
+
+[[dependencies.scythd]]
+
+     modId="botania"
+
+     mandatory=false
+
+     versionRange="[1.16.4-414,)"
+
+     ordering="AFTER"
+
+     side="BOTH"
+
+[[dependencies.scythd]]
+
+     modId="create"
+
+     mandatory=false
+
+     versionRange="[mc1.16.5_v0.3.1a+128,)"
+
+     ordering="AFTER"
+
+     side="BOTH"

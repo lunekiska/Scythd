@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "eu.lunekiska.scythd.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "scythd.refmap.json",
+  "mixins": [
+  "ItemMixin"
+  ],
+  "client": [
+
+  ],
+  "minVersion": "0.8"
+}

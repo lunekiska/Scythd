@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aaa",
+        "  /",
+        "  /"
+    ],
+    "key": {
+        "a": {
+            "item": "theabyss:abyssdiamond"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "scythd:abyss_diamond_scythe",
+        "count": 1
+    }
+}

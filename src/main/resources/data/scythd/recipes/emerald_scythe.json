@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "eee",
+        "  /",
+        "  /"
+    ],
+    "key": {
+        "e": {
+            "item": "minecraft:emerald"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "scythd:emerald_scythe",
+        "count": 1
+    }
+}

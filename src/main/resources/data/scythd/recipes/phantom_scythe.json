@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "scythd:unknown_scythe"
+  },
+  "addition": {
+    "item": "theabyss:phantom_ingot"
+  },
+  "result": {
+    "item": "scythd:phantom_scythe"
+  }
+}

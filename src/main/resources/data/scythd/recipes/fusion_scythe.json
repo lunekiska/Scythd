@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "fff",
+        "  /",
+        "  /"
+    ],
+    "key": {
+        "f": {
+            "item": "theabyss:fusioningot"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "scythd:fusion_scythe",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ggg",
+        "  /",
+        "  /"
+    ],
+    "key": {
+        "g": {
+            "tag": "forge:ingots/refined_glowstone"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "scythd:refined_glowstone_scythe",
+        "count": 1
+    }
+}

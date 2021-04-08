@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ooo",
+        "  /",
+        "  /"
+    ],
+    "key": {
+        "o": {
+            "tag": "forge:ingots/osmium"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "scythd:osmium_scythe",
+        "count": 1
+    }
+}

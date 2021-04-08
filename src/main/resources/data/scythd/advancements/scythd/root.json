@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "scythd:sample_scythe"
+    },
+    "title": {
+      "translate": "advancement.scythd.scythd_root.title"
+    },
+    "description": {
+      "translate": "advancement.scythd.scythd_root.desc"
+    },
+    "background": "minecraft:textures/block/blackstone.png",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "frame": "task"
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

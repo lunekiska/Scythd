@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "uuu",
+        "  /",
+        "  /"
+    ],
+    "key": {
+        "u": {
+            "tag": "forge:ingots/utherium"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "scythd:utherium_scythe",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ttt",
+        "  /",
+        "  /"
+    ],
+    "key": {
+        "t": {
+            "tag": "forge:ingots/terrasteel"
+        },
+        "/": {
+            "item": "botania:livingwood_twig"
+        }
+    },
+    "result": {
+        "item": "scythd:terrasteel_scythe",
+        "count": 1
+    }
+}

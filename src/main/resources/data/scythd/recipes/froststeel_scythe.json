@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "fff",
+        "  /",
+        "  /"
+    ],
+    "key": {
+        "f": {
+            "tag": "forge:ingots/froststeel"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "scythd:froststeel_scythe",
+        "count": 1
+    }
+}

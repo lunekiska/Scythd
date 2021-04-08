@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "  /",
+    "  /"
+  ],
+  "key": {
+    "b": {
+      "item": "create:shadow_steel"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "scythd:shadow_steel_scythe",
+    "count": 1
+  }
+}

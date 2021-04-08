@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "scythd:cloggrum_scythe",
+    "scythd:froststeel_scythe",
+    "scythd:utherium_scythe",
+    "scythd:forgotten_scythe"
+  ]
+}
