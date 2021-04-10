@@ -115,18 +115,33 @@ dependencies {
     annotationProcessor "org.spongepowered:mixin:0.8.2:processor"
 
     compile fg.deobf("curse.maven:aquaculture-60028:3216633")
+
     compile fg.deobf("curse.maven:betterend-forge-port-428877:3222673")
+
     compile fg.deobf("curse.maven:druidcraft-340991:3177267")
+
     compile fg.deobf("mekanism:Mekanism:${mekanism_version}")
+
     compile fg.deobf("mekanism:Mekanism:${mekanism_version}:tools")
+
     compile fg.deobf("curse.maven:oh-the-biomes-youll-go-247560:3247407")
+
     compile fg.deobf("curse.maven:the-abyss-chapter-ii-440647:3237799")
+
+    compile fg.deobf("curse.maven:add-on-the-abyss-beginning-446711:3235157")
+
     compile fg.deobf("curse.maven:the-undergarden-379849:3176785")
+
     compile fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}")
+
     compile fg.deobf("vazkii.autoreglib:AutoRegLib:${autoreglib_version}")
+
     compile fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}")
+
     compile fg.deobf("vazkii.botania:Botania:${botania_version}")
+
     compile fg.deobf("curse.maven:create-328085:3261455")
+
 }
 
 jar

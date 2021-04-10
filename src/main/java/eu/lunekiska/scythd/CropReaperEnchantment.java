@@ -15,7 +15,7 @@ public class CropReaperEnchantment extends Enchantment
 
     public boolean isAcceptableItem(ItemStack stack)
     {
-        return stack.getItem() instanceof ScytheTool && stack.getItem() instanceof NonTieredScytheTool && stack.getItem() instanceof AquacultureScytheTool && stack.getItem() instanceof BetterEndScytheTool && stack.getItem() instanceof DruidcraftScytheTool && stack.getItem() instanceof MekanismScytheTool && stack.getItem() instanceof TheAbyssScytheTool && stack.getItem() instanceof TheUndergardenScytheTool && stack.getItem() instanceof BotaniaManasteelScytheTool && stack.getItem() instanceof BotaniaElementiumScytheTool && stack.getItem() instanceof BotaniaTerrasteelScytheTool;
+        return stack.getItem() instanceof ScytheTool && stack.getItem() instanceof NonTieredScytheTool && stack.getItem() instanceof AquacultureScytheTool && stack.getItem() instanceof BetterEndScytheTool && stack.getItem() instanceof DruidcraftScytheTool && stack.getItem() instanceof MekanismScytheTool && stack.getItem() instanceof TheAbyssScytheTool && stack.getItem() instanceof TheUndergardenScytheTool && stack.getItem() instanceof BotaniaManasteelScytheTool && stack.getItem() instanceof BotaniaElementiumScytheTool && stack.getItem() instanceof BotaniaTerrasteelScytheTool && stack.getItem() instanceof BYGScytheTool && stack.getItem() instanceof CreateScytheTool;
     }
 
     public int getMaxLevel()

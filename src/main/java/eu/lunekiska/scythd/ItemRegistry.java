@@ -11,7 +11,7 @@ public class ItemRegistry
 {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Scythd.MODID);
 
-    public static final RegistryObject<ToolItem> SAMPLE_SCYTHE = ITEMS.register("sample_scythe", () -> new ScytheTool(ItemTier.IRON, 0, -1.5f, 0, false, new Item.Properties().group(Scythd.scythes).maxStackSize(1)));
+    public static final RegistryObject<ToolItem> SAMPLE_SCYTHE = ITEMS.register("sample_scythe", () -> new ScytheTool(ItemTier.WOOD, 0/2, -1.5f, 0, false, new Item.Properties().group(Scythd.scythes).maxStackSize(1)));
 
     // Vanilla
     public static final RegistryObject<ToolItem> WOODEN_SCYTHE = ITEMS.register("wooden_scythe", () -> new ScytheTool(ItemTier.WOOD, 0/2, -1.5f, 1, true, new Item.Properties().group(Scythd.scythes).maxStackSize(1)));
@@ -19,7 +19,7 @@ public class ItemRegistry
     public static final RegistryObject<ToolItem> IRON_SCYTHE = ITEMS.register("iron_scythe", () -> new ScytheTool(ItemTier.IRON, 1/2, -1.5f, 2, true, new Item.Properties().group(Scythd.scythes).maxStackSize(1)));
     public static final RegistryObject<ToolItem> GOLDEN_SCYTHE = ITEMS.register("golden_scythe", () -> new ScytheTool(ItemTier.GOLD, 0/2, -1.5f, 2, false, new Item.Properties().group(Scythd.scythes).maxStackSize(1)));
     public static final RegistryObject<ToolItem> DIAMOND_SCYTHE = ITEMS.register("diamond_scythe", () -> new ScytheTool(ItemTier.DIAMOND, 3/2, -1.5f, 3, true, new Item.Properties().group(Scythd.scythes).maxStackSize(1)));
-    public static final RegistryObject<ToolItem> NETHERITE_SCYTHE = ITEMS.register("netherite_scythe", () -> new ScytheTool(ItemTier.NETHERITE, 4/2, -1.5f, 3, false, new Item.Properties().group(Scythd.scythes).maxStackSize(1).isImmuneToFire()));
+    public static final RegistryObject<ToolItem> NETHERITE_SCYTHE = ITEMS.register("netherite_scythe", () -> new ScytheTool(ItemTier.NETHERITE, 3/2, -1.5f, 3, false, new Item.Properties().group(Scythd.scythes).maxStackSize(1).isImmuneToFire()));
 
     public static final DeferredRegister<Item> NON_TIERED_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Scythd.MODID);
 
