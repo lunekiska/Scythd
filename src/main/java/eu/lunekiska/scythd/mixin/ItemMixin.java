@@ -1,6 +1,6 @@
 package eu.lunekiska.scythd.mixin;
 
-import eu.lunekiska.scythd.ScytheTool;
+import eu.lunekiska.scythd.utils.ScythdReapBlocks;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -24,8 +24,9 @@ public abstract class ItemMixin
         {
             int radius = nbt.getInt("HarvestRadius");
             boolean circle = nbt.getBoolean("CircleHarvest");
-            cir.setReturnValue(ScytheTool.harvest(radius, circle, world, user, hand));
+            cir.setReturnValue(ScythdReapBlocks.harvest(radius, circle, world, user, hand));
             cir.cancel();
         }
     }
+
 }

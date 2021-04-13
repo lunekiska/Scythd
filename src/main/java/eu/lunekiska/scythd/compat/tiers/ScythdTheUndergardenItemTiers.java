@@ -53,7 +53,7 @@ public enum ScythdTheUndergardenItemTiers implements IItemTier
 
     @Override
     public int getMaxUses() {
-        return 0;
+        return this.uses;
     }
 
     @Override
@@ -73,7 +73,7 @@ public enum ScythdTheUndergardenItemTiers implements IItemTier
 
     @Override
     public int getEnchantability() {
-        return 0;
+        return this.enchantmentValue;
     }
 
     @Nonnull

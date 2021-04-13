@@ -16,6 +16,9 @@ buildscript {
         maven {
             url "https://repo.spongepowered.org/maven/"
         }
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
         mavenCentral()
         jcenter()
     }
@@ -24,13 +27,14 @@ buildscript {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '4.1.+', changing: true
         classpath group: 'commons-io', name: 'commons-io', version: '2.8.0'
         classpath group: 'org.spongepowered', name: 'mixingradle', version: '0.7-SNAPSHOT'
+        classpath "gradle.plugin.com.matthewprenger:CurseGradle:1.4.0"
     }
 }
 
 apply plugin: 'net.minecraftforge.gradle'
-apply plugin: 'maven-publish'
-
 apply plugin: 'org.spongepowered.mixin'
+apply plugin: 'maven-publish'
+apply plugin: "com.matthewprenger.cursegradle"
 
 mixin {
     add sourceSets.main, "scythd.refmap.json"
@@ -159,8 +163,6 @@ jar
       }
 }
 
-jar.finalizedBy('reobfJar')
-
 publishing {
     publications {
         mavenJava(MavenPublication) {
@@ -195,5 +197,16 @@ processResources {
     // Copy everything else except the mods.toml
     from(sourceSets.main.resources.srcDirs) {
         exclude 'META-INF/mods.toml'
+    }
+}
+
+curseforge {
+    apiKey = findProperty('curseforge_api_token') ?: 0
+    project {
+        id = "468812"
+        releaseType = 'release'
+        addGameVersion '1.16.5'
+
+        addArtifact(jar)
     }
 }

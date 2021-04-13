@@ -52,7 +52,7 @@ public enum BotaniaItemTiers implements IItemTier
 
     @Override
     public int getMaxUses() {
-        return 0;
+        return this.uses;
      }
 
     @Override

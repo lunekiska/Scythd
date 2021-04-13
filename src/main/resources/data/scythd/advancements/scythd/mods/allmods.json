@@ -18,7 +18,7 @@
     "has_recipe_aquaculture": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "tags": [
+        "recipes": [
           {
             "tag": "scythd:recipes/aquaculture_scythes"
           }
@@ -28,7 +28,7 @@
     "has_recipe_betterend": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "tags": [
+        "recipes": [
           {
             "tag": "scythd:recipes/betterend_scythes"
           }
@@ -38,7 +38,7 @@
     "has_recipe_druidcraft": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "tags": [
+        "recipes": [
           {
             "tag": "scythd:recipes/druidcraft_scythes"
           }
@@ -48,7 +48,7 @@
     "has_recipe_mekanism": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "tags": [
+        "recipes": [
           {
             "tag": "scythd:recipes/mekanism_scythes"
           }
@@ -58,7 +58,7 @@
     "has_recipe_byg": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "tags": [
+        "recipes": [
           {
             "tag": "scythd:recipes/byg_scythes"
           }
@@ -68,7 +68,7 @@
     "has_recipe_theabyss": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "tags": [
+        "recipes": [
           {
             "tag": "scythd:recipes/theabyss_scythes"
           }
@@ -78,7 +78,7 @@
     "has_recipe_undergarden": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "tags": [
+        "recipes": [
           {
             "tag": "scythd:recipes/undergarden_scythes"
           }
@@ -88,7 +88,7 @@
     "has_recipe_botania": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "tags": [
+        "recipes": [
           {
             "tag": "scythd:recipes/botania_scythes"
           }
@@ -98,7 +98,7 @@
     "has_recipe_create": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "tags": [
+        "recipes": [
           {
             "tag": "scythd:recipes/create_scythes"
           }
