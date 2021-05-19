@@ -77,7 +77,7 @@ Legendary scythes are now avaible also for Forge modloader!
 
      mandatory=false
 
-     versionRange="[1.16.5-0.4.52,)"
+     versionRange="[0.4.52,)"
 
      ordering="AFTER"
 
@@ -89,7 +89,7 @@ Legendary scythes are now avaible also for Forge modloader!
 
      mandatory=false
 
-     versionRange="[1.16.5-10.0.21.448,)"
+     versionRange="[10.0.21.448,)"
 
      ordering="AFTER"
 
@@ -101,7 +101,7 @@ Legendary scythes are now avaible also for Forge modloader!
 
      mandatory=false
 
-     versionRange="[1.16.5-10.0.21.448,)"
+     versionRange="[10.0.21.448,)"
 
      ordering="AFTER"
 
@@ -137,7 +137,7 @@ Legendary scythes are now avaible also for Forge modloader!
 
      mandatory=false
 
-     versionRange="[1.16.5-0.4.5,)"
+     versionRange="[0.4.5,)"
 
      ordering="AFTER"
 
